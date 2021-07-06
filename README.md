@@ -291,3 +291,29 @@ DBMS의 3가지 필수 기능은?
 답 : Git
 ```
 
+
+
+C++ 구조체
+
+```c++
+int main() {
+  struct insa{
+    char name[10];
+    int age;
+    }
+    
+  a[] = {"KIM", 10, "HI", 12, "ddd", 13};
+  
+  struct insa *p;
+  p=a;
+  printf("%s\n", p->name);
+  printf("%s\n", p);
+  
+  printf("%d\n", p->age);
+  p++;
+  printf("%s\n", p->name);
+  printf("%d\n", p->age);
+  return 0;
+}
+```
+
